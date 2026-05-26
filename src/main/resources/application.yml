@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: pnc-segundo-parcial-gestion-tareas
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/parcial02
+    password: juan123
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
